@@ -21,3 +21,9 @@ While this is the most common project, the goal here is to create a canonical RE
 -   **NFR02 (Quality)**: 100% unit test coverage, specifically validating the required field rules.
 
 -   **NFR03 (Standard)**: The API must return correct HTTP codes (201 Created, 200 OK, 204 No Content, 400 Bad Request).
+
+## Improvements
+
+-   **FR06 (Groups)**: The system must allow creating groups of users.
+-   **FR07 (Assignment)**: Tasks can be assigned to a specific user or a group of users.
+-   **FR08 (Filtering)**: Users can filter tasks assigned to them or their groups.

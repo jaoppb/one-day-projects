@@ -14,3 +14,8 @@ A classic real-time messaging application. The goal is to facilitate instant com
 - **NFR01 (WebSockets)**: Must use WebSockets for message delivery. Polling is not allowed.
 - **NFR02 (Scalability - Logical)**: Code should be structured to allow rooms/channels, even if only one "Global" room is implemented initially.
 - **NFR03 (Docker)**: The WebSocket server must be containerized.
+
+## Improvements
+
+-   **FR05 (Rich Media)**: Users can send images and videos. The system should handle the upload (or link sharing) and broadcast it to the room.
+-   **NFR04 (Storage)**: Decide on a strategy for storing media (e.g., local file system volume, S3-compatible bucket, or Base64 for small files - though not recommended for video).

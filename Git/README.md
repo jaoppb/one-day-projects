@@ -14,3 +14,10 @@ A basic implementation of the core plumbing commands of Git. This challenges you
 -   **NFR01 (Compatibility)**: (Optional but recommended) The internal object format (zlib compressed, SHA-1 hash) should ideally be compatible with real Git, allowing `git cat-file` to read your objects.
 -   **NFR02 (No Libraries)**: You cannot use `libgit2` or execute `git` commands. You must manipulate the bytes and file system manually.
 -   **NFR03 (CLI)**: This project is primarily a CLI tool, not a REST API.
+
+## Improvements
+
+-   **FR05 (Branches)**: Ability to create and switch between branches (managing `.git/refs/heads`).
+-   **FR06 (Merge)**: Ability to merge two branches.
+    -   *Simple Strategy*: Fast-forward if possible.
+    -   *Complex Strategy*: Create a merge commit if history has diverged (3-way merge).
