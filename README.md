@@ -126,7 +126,7 @@ Add two more languages
 
 ## Shell (Improvement)
 
-The user now can use IFs, Loops and Functions
+The user now can use Variables, IFs, Loops and Functions
 
 ## Weather Forecast (Improvement)
 

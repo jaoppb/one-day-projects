@@ -14,3 +14,11 @@ This project challenges you to build a basic command-line interface (CLI) or a s
 
 -   **NFR01 (Syscalls)**: Use low-level system calls (fork, exec, wait) to manage processes (if using C/Go/Rust). If using a higher-level language, ensure you are manually managing the child process lifecycle, not just passing the string to `sh -c`.
 -   **NFR02 (Signal Handling)**: Handle `Ctrl+C` (SIGINT) gracefully—it should interrupt the running command, not kill the shell itself.
+
+## Improvements
+
+-   **FR06 (Control Flow)**: Support basic control flow structures:
+    -   **IF Statements**: `if [ condition ]; then ... fi`
+    -   **Loops**: `for` or `while` loops.
+-   **FR07 (Functions)**: Allow defining and calling functions within the shell session.
+-   **FR08 (Variables)**: Support local and environment variables (e.g., `VAR=value` and `$VAR` expansion).

@@ -23,3 +23,8 @@ A REST API that acts as a proxy to an external weather provider (like OpenWeathe
 -   **NFR04 (Resilience)**: Handle errors gracefully if the external API is down (e.g., return the last known cached data if available, or a friendly error).
 
 -   **NFR05 (Failover Strategy)**: (Optional) Support configuration for multiple external weather API providers (from 1 to N). If the primary provider fails, the system should automatically attempt to fetch data from the next available provider in the list.
+
+## Improvements
+
+-   **FR05 (Alerts)**: Allow users to register a location and an email address.
+-   **FR06 (Notification)**: Send an automated email when specific weather conditions are met (e.g., "It will rain tomorrow in London"). You may use a mock SMTP server (like Mailhog) or a real provider.
